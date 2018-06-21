@@ -10,7 +10,7 @@ Please note that:
 * This guide was designed for running machines in `us-west1`, as those machines are the cheapest.
 
 ## Costs
-It is smart to think about costs before spinning up your machine, as you'll quickly go over budget when you leave your machine running.
+In this section, we'll discuss the costs of a spinning machine, as you’ll quickly go over budget when you leave your machine running.
 
 With the configuration below, you will only be charged when your machine is running, except for the SSD. An SSD costs $0.17 per GB per month. We'll make a quick calculation for a project of two months. With $375 budget and an SSD of 150GB, and some networking, you will have $320.00 left as budget.
 
@@ -29,10 +29,18 @@ Please note that the request can take some time to process.
 ## Deploy your first VM
 1. Open [AISE TensorFlow NVidia GPU Notebook on Google Cloud Launcher](https://console.cloud.google.com/projectselector/launcher/details/jetware/tensorflow-python-cuda-minilab)
 2. Select your project.
-3. Under _Zone_, select `us-west1-b`.
-4. Increase _Boot disk size in GB_ to the size of your dataset plus approximately 20GB for the operating system.
-5. Click _Deploy_
-6. The machine should take some time to boot. After it has been succesfully booted, the IP address for Jupyter Notebook and the password will be shown in the panel.
+3. Click _Launch on Compute Engine_.
+4. Under _Zone_, select `us-west1-b`.
+5. Increase _Boot disk size in GB_ to the size of your dataset plus approximately 20GB for the operating system.
+6. Click _Deploy_
+
+The machine will take some time to boot. After it has been succesfully booted, the IP address for Jupyter Notebook and the password will be shown in the overview panel on the right. 
+
+You can have shell access to the machine in two ways. This allows you to access your terminal and upload the dataset.
+1. Open (Deployment Manager)[https://console.cloud.google.com/dm/deployments], and select the notebook. You'll now see a button _SSH_ in the overview panel on the right. This method allows you also to access terminal from your own terminal using (gcloud)[https://cloud.google.com/sdk/docs]. 
+2. Open Jupyter Notebook and click _New_ > _Terminal_.
+
+
 
 ![Install VM](gifs/vm.gif)
 
