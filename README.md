@@ -37,7 +37,7 @@ Please note that the request can take some time to process.
 The machine will take some time to boot. After it has been succesfully booted, the IP address for Jupyter Notebook and the password will be shown in the overview panel on the right. 
 
 You can have shell access to the machine in two ways. This allows you to access your terminal and upload the dataset.
-1. Open (Deployment Manager)[https://console.cloud.google.com/dm/deployments], and select the notebook. You'll now see a button _SSH_ in the overview panel on the right. This method allows you also to access terminal from your own terminal using (gcloud)[https://cloud.google.com/sdk/docs]. 
+1. Open [Deployment Manager](https://console.cloud.google.com/dm/deployments), and select the notebook. You'll now see a button _SSH_ in the overview panel on the right. This method allows you also to access terminal from your own terminal using [gcloud](https://cloud.google.com/sdk/docs). 
 2. Open Jupyter Notebook and click _New_ > _Terminal_.
 
 
