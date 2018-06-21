@@ -19,9 +19,9 @@ Please note that the request can take some time to process.
 ![Update Quota](gifs/quota.gif)
 
 ## Deploy your first VM
-1. Go to [Google Cloud Launcher](https://console.cloud.google.com/projectselector/launcher/details/jetware/tensorflow-python-cuda-minilab)
+1. Open [AISE TensorFlow NVidia GPU Notebook on Google Cloud Launcher](https://console.cloud.google.com/projectselector/launcher/details/jetware/tensorflow-python-cuda-minilab)
 2. Select your project.
-3. Under _Zone_, select `us-west1-b1`.
+3. Under _Zone_, select `us-west1-b`.
 4. Increase _Boot disk size in GB_ to the size of your dataset plus approximately 20GB for the operating system.
 5. Click _Deploy_
 
