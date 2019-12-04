@@ -1,5 +1,5 @@
 # GoogleCloudPlatform
-This document will guide you to running deep neural network libraries on the Google Cloud Platform. It was specifically designed for [Machine Learning in Practise](https://www.ru.nl/prospectus/socsci/courses-osiris/ai/nwi-imc030-machine-learning-practice/), a course given at the Radboud University. We will guide you trough the following steps:
+This document will guide you to running deep neural network libraries on the Google Cloud Platform. It was specifically designed for [Machine Learning in Practice](https://www.ru.nl/prospectus/socsci/courses-osiris/ai/nwi-imc030-machine-learning-practice/), a course given at the Radboud University. We will guide you trough the following steps:
 * Costs
 * Upgrading the GPU quota
 * Deploying your first VM
